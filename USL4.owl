@@ -1,0 +1,593 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#"
+     xml:base="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#abordeaza -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#abordeaza">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Conferinte_de_presa"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Miting"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#apare -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#apare">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Protestatar"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Reportaj"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#are -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#are">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Sef_partid"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#termopane"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#are_nevoie_de -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#are_nevoie_de">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Votant"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Pomeni_electorale"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#da -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#da">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Politician"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Pomeni_electorale"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#e_de_obicei -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#e_de_obicei">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Persoana"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Votant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#este_ales_de_catre -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#este_ales_de_catre">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Presedinte"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Votant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#face_parte -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#face_parte">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Persoana"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Partid"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#gazduieste -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#gazduieste">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#sediu_partid"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#sala_congres"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#merg_la -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#merg_la">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Protestatar"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Miting"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#poseda -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#poseda">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#sediu_partid"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#termopane"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#provoaca -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#provoaca">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Votare"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Miting"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#scrie -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#scrie">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Jurnalist"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Articole_de_ziar"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#se_duce_la -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#se_duce_la">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Persoana"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Votare"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#sunt_legate_de -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#sunt_legate_de">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Procente"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Votare"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#sunt_tinute_de_catre -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#sunt_tinute_de_catre">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Conferinte_de_presa"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Presedinte"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Arestat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Arestat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Protestatar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Articole_de_ziar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Articole_de_ziar"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Conferinte_de_presa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Conferinte_de_presa"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Gazat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Gazat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Protestatar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Inghetat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Inghetat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Protestatar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Jurnalist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Jurnalist">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Persoana"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Membri_de_mana_intai -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Membri_de_mana_intai">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Membri_partid"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Membri_partid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Membri_partid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Partid"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Membri_pentru_a_fi_la_numar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Membri_pentru_a_fi_la_numar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Membri_partid"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Ministru -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Ministru">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Politician"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Miting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Miting"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Miting_opozitie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Miting_opozitie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Miting"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Miting_platit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Miting_platit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Miting"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Ordonante_de_urgenta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Ordonante_de_urgenta"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Partid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Partid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Structura_Politica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Persoana -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Persoana"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Plictisit_de_vot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Plictisit_de_vot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Votant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Politician -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Politician">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Persoana"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Pomeni_electorale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Pomeni_electorale"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Presedinte -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Presedinte">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Politician"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Prim-ministru -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Prim-ministru">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Politician"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Procente -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Procente"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Protestatar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Protestatar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Votant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Reportaj -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Reportaj"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Sef_partid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Sef_partid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Politician"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Sef_partid_PNL -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Sef_partid_PNL">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Sef_partid"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Sef_partid_PRM -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Sef_partid_PRM">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Sef_partid"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Sef_partid_PSD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Sef_partid_PSD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Sef_partid"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Structura_Politica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Structura_Politica"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Votant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Votant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Persoana"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Votant_USL -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Votant_USL">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Votant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Votant_opozitie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Votant_opozitie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Votant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Votare -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Votare"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#analist_politic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#analist_politic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Jurnalist"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#articole_accidente_auto -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#articole_accidente_auto">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Articole_de_ziar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#articole_de_manipulare -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#articole_de_manipulare">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Articole_de_ziar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#articole_de_scandal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#articole_de_scandal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Articole_de_ziar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#concerte -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#concerte">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Pomeni_electorale"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#faina -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#faina">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Pomeni_electorale"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#faina_la_un_leu_kilogramul -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#faina_la_un_leu_kilogramul">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#faina"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#ordonanta_de_modificare_a_justitiei -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#ordonanta_de_modificare_a_justitiei">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Ordonante_de_urgenta"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#ordonanta_pentru_zile_libere_intre_sarbatori_si_weekend -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#ordonanta_pentru_zile_libere_intre_sarbatori_si_weekend">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Ordonante_de_urgenta"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#pelerinaj_la_Sf._Paraschiva -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#pelerinaj_la_Sf._Paraschiva">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#pelerinaj_la_moaste_pe_gratis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#pelerinaj_la_moaste_pe_gratis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#pelerinaj_la_moaste_pe_gratis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Pomeni_electorale"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#primvicepresedinte_de_partid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#primvicepresedinte_de_partid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Membri_de_mana_intai"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#rachiu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#rachiu">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Pomeni_electorale"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#rachiu_de_prune_si_caramele -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#rachiu_de_prune_si_caramele">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#rachiu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#sala_congres -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#sala_congres"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#secretar_consiliu_judetean -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#secretar_consiliu_judetean">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Membri_pentru_a_fi_la_numar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#sediu_partid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#sediu_partid"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#sondaj_de_opinie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#sondaj_de_opinie"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#sondaj_prin_telefon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#sondaj_prin_telefon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#sondaj_de_opinie"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#termopane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#termopane"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#termopane_cu_imitatie_de_lemn -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#termopane_cu_imitatie_de_lemn">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#termopane"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#ulei -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#ulei">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lucian/ontologies/2020/0/untitled-ontology-8#Pomeni_electorale"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
